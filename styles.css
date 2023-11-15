@@ -1,0 +1,18 @@
+/* Customize the background color based on screen size */
+@media (max-width: 601px) {
+    body {
+        background-color: #e16570; /* Light red for mobile */
+    }
+}
+
+@media (min-width: 602px) and (max-width: 1024px) {
+    body {
+        background-color: #09c034; /* Light green for tablet */
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #50a2f9; /* Light blue for PC */
+    }
+}
